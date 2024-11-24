@@ -46,7 +46,7 @@ public class SecurityConfig {
 
     }
 
-    @Bean
+    /*@Bean
     public UserDetailsService userDetailsService() {
 
         UserDetails u1 = User
@@ -64,7 +64,7 @@ public class SecurityConfig {
                 .build();
 
         return new InMemoryUserDetailsManager(u1,u2);
-    }
+    }*/
 
     @Bean
     public AuthenticationProvider authenticationProvider() {
